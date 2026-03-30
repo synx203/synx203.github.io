@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Blue Horizon Placeholder</title>
+  <desc id="desc">Layered modern placeholder with blue horizon accents.</desc>
+  <rect width="900" height="1100" fill="#e4ecff"/>
+  <path d="M0 748c119-73 241-87 369-43 128 45 260 113 388 95 50-8 97-24 143-51v351H0z" fill="#1f53de" fill-opacity="0.86"/>
+  <path d="M0 841c114-45 225-45 333-4 96 36 190 92 303 96 90 4 179-24 264-86v253H0z" fill="#5c89ff" fill-opacity="0.82"/>
+  <circle cx="740" cy="255" r="113" fill="#ffffff" fill-opacity="0.41"/>
+</svg>

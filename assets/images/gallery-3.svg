@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Afterglow Placeholder</title>
+  <desc id="desc">Soft luminous placeholder with deep blue ambience.</desc>
+  <defs>
+    <radialGradient id="r" cx="54%" cy="37%" r="62%">
+      <stop offset="0%" stop-color="#f2f6ff"/>
+      <stop offset="58%" stop-color="#9cbcff"/>
+      <stop offset="100%" stop-color="#355ed4"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#r)"/>
+  <ellipse cx="456" cy="588" rx="281" ry="210" fill="#ffffff" fill-opacity="0.28"/>
+  <ellipse cx="448" cy="589" rx="196" ry="143" fill="#ffffff" fill-opacity="0.52"/>
+</svg>

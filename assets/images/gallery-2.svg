@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Quiet Geometry Placeholder</title>
+  <desc id="desc">Geometric minimal placeholder in blue and lavender.</desc>
+  <rect width="900" height="1100" fill="#eaf0ff"/>
+  <rect x="130" y="138" width="638" height="838" rx="34" fill="#a9beff"/>
+  <rect x="196" y="223" width="510" height="670" rx="28" fill="#f8faff"/>
+  <circle cx="450" cy="559" r="164" fill="#3770ff" fill-opacity="0.92"/>
+  <rect x="257" y="724" width="386" height="74" rx="37" fill="#d7e2ff"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Blue Current Placeholder</title>
+  <desc id="desc">Modern abstract placeholder with flowing blue forms.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8efff"/>
+      <stop offset="100%" stop-color="#a9c4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <path d="M70 776c169-141 304-184 446-120 145 65 237 71 314 33v411H70z" fill="#2d64f2" fill-opacity="0.86"/>
+  <path d="M0 932c171-91 289-84 404-26s209 107 305 94c87-12 149-55 191-95v195H0z" fill="#1143c5" fill-opacity="0.7"/>
+</svg>
