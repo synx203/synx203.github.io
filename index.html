@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Frantisek Riaditel fan page: viral recepty, grilovacky, bonus klipy a najlepsie hlasky z TikToku, Instagramu a YouTubu.">
+  <meta name="description" content="Frantisek Riaditel: recepty, grilovacky, videa a bonus klipy z TikToku, Instagramu a YouTubu.">
   <title>Frantisek Riaditel | Recepty a grilovacky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Preskocit na obsah</a>
 
-  <header class="site-header" id="top">
+  <header class="site-header" id="top" data-scrolled="false">
     <div class="container nav-shell">
       <a class="brand" href="#top">
         <span class="brand-mark" aria-hidden="true"></span>
         Frantisek Riaditel
       </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        Ponuka
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Otvorit navigaciu">
+        Menu
       </button>
 
       <nav id="site-nav" class="site-nav" aria-label="Hlavna navigacia">
@@ -35,91 +38,154 @@
 
   <main id="main-content">
     <section class="section hero">
-      <div class="container hero-grid">
+      <div class="container hero-shell">
         <div class="hero-copy reveal">
           <p class="eyebrow">Frantisek Riaditel</p>
-          <h1>Frantisek Riaditel: gril, recepty a grilovacky.</h1>
-          <p>
-            Stranka pre fanusikov Frantiska.
-            Najdes tu jeho najznamejsie klipy, fotky a bonus momenty.
+          <h1>Recepty, grilovacky a najznamejsie videa na jednom mieste.</h1>
+          <p class="hero-lead">
+            Stranka zhromazduje najznamejsie videa, fotky a bonus klipy
+            Frantiska Riaditela v prehladnejsej a cistejsej podobe.
           </p>
           <div class="hero-actions">
             <a class="btn" href="#videa">Pozriet videa</a>
             <a class="text-link" href="#gallery">Otvorit fotogaleriu</a>
           </div>
+
+          <div class="hero-metrics">
+            <article class="metric-card">
+              <strong>Najznamejsie videa</strong>
+              <span>rajcinovy salat, 100 ugurtu a demonstrace</span>
+            </article>
+            <article class="metric-card">
+              <strong>Prehlad obsahu</strong>
+              <span>recepty, kratke videa, fotky a bonus klipy</span>
+            </article>
+          </div>
         </div>
 
-        <figure class="hero-visual reveal">
-          <div class="media-frame" data-parallax="18">
-            <img
-              src="https://images.uncyclomedia.co/necyklopedie/cs/thumb/f/f8/Frantisekreditel.jpg/250px-Frantisekreditel.jpg"
-              data-fallback="assets/images/hero-wave.svg"
-              alt="Frantisek Riaditel pri grile"
-              decoding="async"
-            >
+        <div class="hero-visual reveal" data-delay="140">
+          <div class="hero-visual-stack">
+            <div class="hero-tag">Vyber obsahu</div>
+            <figure class="hero-figure">
+              <div class="media-frame spotlight-frame" data-parallax="18">
+                <img
+                  src="https://images.uncyclomedia.co/necyklopedie/cs/thumb/f/f8/Frantisekreditel.jpg/250px-Frantisekreditel.jpg"
+                  data-fallback="assets/images/hero-wave.svg"
+                  alt="Frantisek Riaditel pri grile"
+                  decoding="async"
+                >
+              </div>
+              <figcaption>Frantisek v svojom zivle.</figcaption>
+            </figure>
+
+            <aside class="panel panel-soft hero-note">
+              <p class="eyebrow">Charakter obsahu</p>
+              <p class="hero-note-copy">Jednoduche recepty, svojsky prejav a momenty, ktore si ludia rychlo zapamataju.</p>
+            </aside>
           </div>
-          <figcaption>Frantisek v svojom zivle.</figcaption>
-        </figure>
+        </div>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="container split-grid">
-        <article class="panel reveal">
+      <div class="container section-head section-head-split reveal">
+        <div>
           <p class="eyebrow">O Frantiskovi</p>
-          <h2>Co robi Frantiska tak viralneho?</h2>
+          <h2>Preco je Frantisek tak oblubeny.</h2>
+        </div>
+        <p class="section-lead">
+          Na profile @reditel_bizaru sa miesa jedlo, gril a hlasky,
+          ktore si ludia rychlo zapamataju a dalej zdielaju.
+        </p>
+      </div>
+
+      <div class="container about-grid">
+        <article class="panel story-card reveal">
+          <h3>Co robi jeho obsah zapamatatelnym?</h3>
           <p>
-            Na profile @reditel_bizaru miesa jedlo, gril a hlasky, ktore ludia opakuju v komentaroch.
-            Raz recept, raz chaos, vzdy energia.
+            Obsah je jednoduchy na pochopenie, ale zaroven ma vlastny styl.
+            Raz je to recept, raz komentar alebo kratky moment pri grile,
+            no vzdy je jasne, o koho video ide.
           </p>
           <ul class="feature-list">
-            <li><strong>Styl:</strong> rychly recept + nefiltrovany komentar</li>
-            <li><strong>Specialita:</strong> grilovacky, rajcinovy salat, ugurty a random punchline</li>
-            <li><strong>Atmosfera:</strong> seriozny nazov, totalne neseriozna zabava</li>
+            <li>
+              <strong>Styl</strong>
+              <span>rychly recept plus komentar bez filtra</span>
+            </li>
+            <li>
+              <strong>Specialita</strong>
+              <span>grilovacky, rajcinovy salat, ugurty a random punchline</span>
+            </li>
+            <li>
+              <strong>Atmosfera</strong>
+              <span>seriozny nazov, totalne neseriozna zabava</span>
+            </li>
           </ul>
         </article>
 
-        <div class="stack">
+        <div class="info-stack" data-stagger="130">
           <article class="panel panel-soft reveal" id="recepty">
-            <h3>Co na jeho profile ide najviac</h3>
+            <h3>Co na profile funguje najlepsie</h3>
             <div class="recipe-pills">
               <span class="pill">Rychle recepty</span>
               <span class="pill">Grilovacky</span>
+              <span class="pill">Zname hlasky</span>
             </div>
             <p>
               Kratke recepty, grilovacky a velke nakupy.
+              Vsetko podane tak, aby si si to zapamatal po jednom videu.
             </p>
           </article>
+
           <article class="panel panel-soft reveal">
-            <h3>Pre hladnych aj pre memelordov</h3>
+            <h3>Pre fanusikov receptov aj zabavnych videi</h3>
             <p>
               Frantisek vie naraz inspirovat aj pobavit.
-              Preto to funguje: obsah je jednoduchy, ale charakter maximalny.
+              TikTok, Instagram aj YouTube maju podobny rukopis: jedlo,
+              svojsky komentar a jednoducha forma.
             </p>
-            <p class="muted-note">
-              TikTok, Instagram aj YouTube drzia rovnaky vibe: BBQ OPEN, hlasky, bizar.
-            </p>
+            <div class="summary-grid">
+              <div class="summary-item">
+                <strong>TikTok</strong>
+                <span>najznamejsie kratke videa a momentky</span>
+              </div>
+              <div class="summary-item">
+                <strong>Instagram</strong>
+                <span>fotky, kratke videa a zakulisie</span>
+              </div>
+              <div class="summary-item">
+                <strong>YouTube</strong>
+                <span>archiv videi a dlhsi obsah</span>
+              </div>
+              <div class="summary-item">
+                <strong>Styl</strong>
+                <span>jednoduche formaty a rozpoznatelny prejav</span>
+              </div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section section-tint" id="videa">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="container section-head section-head-split reveal">
+        <div>
           <p class="eyebrow">TikTok videa</p>
-          <h2>Viral klipy z @reditel_bizaru.</h2>
-          <p class="asset-note">
-            Tri klasiky: recept, ugurty a demonstrace.
-          </p>
+          <h2>Najznamejsie videa z @reditel_bizaru.</h2>
         </div>
+        <p class="section-lead">
+          Vyber troch najznamejsich klipov.
+          Video sa nacita az po kliknuti, takze stranka ostava rychla.
+        </p>
+      </div>
 
-        <div class="video-grid">
+      <div class="container">
+        <div class="video-grid" data-stagger="120">
           <article class="video-card reveal">
+            <span class="card-tag">Recept</span>
             <h3>Legendarny rrajcinovy salat</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7520550421476216086&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video Legendarny rrajcinovy salat">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -131,14 +197,14 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <p>Klasika, ktoru komunita spamuje v komentaroch.</p>
+            <p>Klip, ktory ludia casto spominaju v komentaroch.</p>
           </article>
 
           <article class="video-card reveal">
+            <span class="card-tag">Klasika</span>
             <h3>100 ugurtu</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7536602636330568962&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video 100 ugurtu">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -150,14 +216,14 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <p>Ugurt saga, ktoru raz vidis a uz ju nezabudnes.</p>
+            <p>Video, na ktore sa po jednom pozreti tazko zabuda.</p>
           </article>
 
           <article class="video-card reveal">
+            <span class="card-tag">Vyber</span>
             <h3>demonstrace</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7573041892967943446&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video demonstrace">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -169,61 +235,70 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <p>Demonstrace mode: chaos, energia, Frantisek.</p>
+            <p>Frantisek v typickej energii a prejave.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section" id="gallery">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="container section-head section-head-split reveal">
+        <div>
           <p class="eyebrow">Fotky</p>
           <h2>Frantisek v akcii.</h2>
-          <p class="asset-note">Momentky z videi, grilu a backstage scen.</p>
         </div>
+        <p class="section-lead">Vybrane fotografie z videi, grilu a zakulisia.</p>
+      </div>
 
-        <div class="gallery-grid">
-          <figure class="gallery-item reveal">
+      <div class="container">
+        <div class="gallery-grid" data-stagger="100">
+          <figure class="gallery-item gallery-item-feature reveal">
             <div class="media-frame" data-parallax="10">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbS-MoygD4RCPEZpH3X7zhSf4QPOrgH25WWA&amp;s" data-fallback="assets/images/gallery-1.svg" alt="Frantisek pri priprave receptu 1" loading="lazy" decoding="async">
             </div>
+            <figcaption>Rajcinovy salat.</figcaption>
           </figure>
 
-          <figure class="gallery-item reveal">
+          <figure class="gallery-item gallery-item-tall reveal">
             <div class="media-frame" data-parallax="14">
               <img src="https://images.uncyclomedia.co/necyklopedie/cs/d/db/Franti%C5%A1k%C5%AFv_%C5%99editelsk%C3%BD_sal%C3%A1t.jpg" data-fallback="assets/images/gallery-2.svg" alt="Frantisek pri grile 2" loading="lazy" decoding="async">
             </div>
+            <figcaption>Pri grile.</figcaption>
           </figure>
 
-          <figure class="gallery-item reveal">
+          <figure class="gallery-item gallery-item-compact reveal">
             <div class="media-frame" data-parallax="12">
               <img src="https://images.uncyclomedia.co/necyklopedie/cs/thumb/4/46/Ugurty.jpg/67px-Ugurty.jpg?20250815180133" data-fallback="assets/images/gallery-3.svg" alt="Frantisek varenie 3" loading="lazy" decoding="async">
             </div>
+            <figcaption>Ugurty.</figcaption>
           </figure>
 
-          <figure class="gallery-item reveal">
+          <figure class="gallery-item gallery-item-wide reveal">
             <div class="media-frame" data-parallax="16">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJYfwb18AK08RyyFtaZweJ7xw0J_pf1E6EA&amp;s" data-fallback="assets/images/gallery-4.svg" alt="Frantisek backstage 4" loading="lazy" decoding="async">
             </div>
+            <figcaption>Zo zakulisia.</figcaption>
           </figure>
         </div>
       </div>
     </section>
 
     <section class="section section-tint" id="bonus-videa">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="container section-head section-head-split reveal">
+        <div>
           <p class="eyebrow">Bonus videa</p>
-          <h2>Bonus klipy pre extra davku bizaru.</h2>
+          <h2>Dalsie klipy a momenty.</h2>
         </div>
+        <p class="section-lead">Doplnkovy vyber videi pre tych, ktori si chcu pozriet viac.</p>
+      </div>
 
-        <div class="video-grid">
+      <div class="container">
+        <div class="video-grid video-grid-bonus" data-stagger="100">
           <article class="video-card reveal">
+            <span class="card-tag">Bonus</span>
             <h3>frantisek ma nervy</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7540641962358082838&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video frantisek ma nervy">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -235,12 +310,14 @@
                 allowfullscreen
               ></iframe>
             </div>
+            <p>Video, v ktorom je nervozita citit od prveho momentu.</p>
           </article>
+
           <article class="video-card reveal">
+            <span class="card-tag">Humor</span>
             <h3>frantisek looksmaxxing</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7581829436748696854&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video frantisek looksmaxxing">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -252,12 +329,14 @@
                 allowfullscreen
               ></iframe>
             </div>
+            <p>Odlahceny klip so svojskym humorom.</p>
           </article>
+
           <article class="video-card reveal">
+            <span class="card-tag">Klasika</span>
             <h3>ugurty</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7525901425235283222&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video ugurty">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -269,12 +348,14 @@
                 allowfullscreen
               ></iframe>
             </div>
+            <p>Jeden z najznamejsich motivov, ktory sa stale vracia.</p>
           </article>
+
           <article class="video-card reveal">
+            <span class="card-tag">Vyplatka</span>
             <h3>vyplatka</h3>
             <div class="video-frame" data-loaded="false" data-thumb="https://www.tiktok.com/api/img/?itemId=7601632764164656406&amp;location=0&amp;aid=1988">
               <button class="video-gate" type="button" aria-label="Spustit video vyplatka">
-                Spustit video
               </button>
               <iframe
                 class="tiktok-iframe"
@@ -286,36 +367,43 @@
                 allowfullscreen
               ></iframe>
             </div>
+            <p>Klasicka vyplatka v jeho podani.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section" id="socials">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="container section-head section-head-split reveal">
+        <div>
           <p class="eyebrow">Socialne siete</p>
           <h2>Kde Frantiska sledovat.</h2>
-          <p class="asset-note">Oficialne profily: TikTok, Instagram, YouTube.</p>
         </div>
+        <p class="section-lead">Oficialne profily, kde publikuje videa a dalsi obsah.</p>
+      </div>
 
-        <div class="social-grid">
+      <div class="container">
+        <div class="social-grid" data-stagger="100">
           <a class="social-card reveal" href="https://www.tiktok.com/@reditel_bizaru" target="_blank" rel="noreferrer noopener">
             <span class="social-label">TikTok</span>
             <span class="social-handle">@reditel_bizaru</span>
+            <span class="social-copy">kratke videa, recepty a najznamejsie momenty</span>
           </a>
+
           <a class="social-card reveal" href="https://www.instagram.com/frantisek.reditel/" target="_blank" rel="noreferrer noopener">
             <span class="social-label">Instagram</span>
             <span class="social-handle">@frantisek.reditel</span>
+            <span class="social-copy">fotky, kratke videa a zakulisne momenty</span>
           </a>
+
           <a class="social-card reveal" href="https://www.youtube.com/@frantisekreditel3761" target="_blank" rel="noreferrer noopener">
             <span class="social-label">YouTube</span>
             <span class="social-handle">@frantisekreditel3761</span>
+            <span class="social-copy">archiv videi a dalsi obsah na dlhsie pozeranie</span>
           </a>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
